@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StreetFood.DAL\StreetFood.DAL.csproj" />
+    <ProjectReference Include="..\StreetFood.Entities\StreetFood.Entities.csproj" />
+    <ProjectReference Include="..\StreetFood.Providers\StreetFood.Providers.csproj" />
+  </ItemGroup>
+
+</Project>
